@@ -18,51 +18,54 @@ RED = (192, 57, 43)
 RED_HI = (231, 76, 60)
 
 PHOTOS = [
-    ("hero_976x420.png", 24, 219),
-    ("gta_150x110.png", 24, 690),
-    ("akvan_150x110.png", 524, 690),
-    ("voyager_150x110.png", 24, 834),
-    ("hayabusa_150x110.png", 524, 834),
+    ("hero_976x420.png", 24, 211),
+    ("gta_232x80.png", 24, 671),
+    ("akvan_232x80.png", 272, 671),
+    ("voyager_232x80.png", 520, 671),
+    ("hayabusa_232x80.png", 768, 671),
 ]
 
 TEXTS = [
     ("t_volume.png", 449, 7),
-    ("t_masthead.png", 314, 31),
-    ("t_dateline.png", 362, 88),
-    ("t_hero_kicker.png", 24, 120),
-    ("t_chip.png", 842, 115),
-    ("t_hero_head.png", 24, 144),
-    ("t_deck.png", 25, 649),
-    ("t_arc.png", 336, 668),
-    ("t_card0.png", 186, 692),
-    ("t_card1.png", 686, 692),
-    ("t_card2.png", 186, 837),
-    ("t_card3.png", 686, 836),
+    ("t_masthead.png", 325, 30),
+    ("t_dateline.png", 369, 85),
+    ("t_hero_kicker.png", 24, 116),
+    ("t_chip.png", 842, 111),
+    ("t_hero_head.png", 24, 140),
+    ("t_deck.png", 25, 641),
+    ("t_arc.png", 336, 657),
+    ("t_card0.png", 24, 761),
+    ("t_card1.png", 272, 761),
+    ("t_card2.png", 520, 761),
+    ("t_card3.png", 768, 761),
+    ("t_digest.png", 24, 884),
     ("t_foot_l.png", 24, 985),
-    ("t_foot_c.png", 311, 986),
+    ("t_foot_c.png", 204, 986),
     ("t_foot_r.png", 849, 985),
 ]
 
 HLINES = [
-    (24, 1000, 79, 1, HAIRLINE),
-    (24, 1000, 108, 1, RED_HI),
-    (24, 1000, 109, 2, RED),
-    (24, 1000, 681, 1, HAIRLINE),
-    (24, 1000, 827, 1, HAIRLINE),
+    (24, 1000, 75, 1, HAIRLINE),
+    (24, 1000, 105, 1, RED_HI),
+    (24, 1000, 106, 2, RED),
+    (24, 1000, 667, 1, HAIRLINE),
     (24, 1000, 978, 2, HAIRLINE),
 ]
 
 VLINES = [
-    (512, 694, 822, HAIRLINE),
-    (512, 838, 969, HAIRLINE),
+    (264, 675, 873, HAIRLINE),
+    (512, 675, 873, HAIRLINE),
+    (760, 675, 873, HAIRLINE),
+    (346, 898, 949, HAIRLINE),
+    (676, 898, 949, HAIRLINE),
 ]
 
 OUTLINES = [
-    (24, 219, 999, 638),
-    (24, 690, 173, 799),
-    (524, 690, 673, 799),
-    (24, 834, 173, 943),
-    (524, 834, 673, 943),
+    (24, 211, 999, 630),
+    (24, 671, 255, 750),
+    (272, 671, 503, 750),
+    (520, 671, 751, 750),
+    (768, 671, 999, 750),
 ]
 
 
