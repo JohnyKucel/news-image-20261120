@@ -18,54 +18,55 @@ RED = (192, 57, 43)
 RED_HI = (231, 76, 60)
 
 PHOTOS = [
-    ("hero_976x420.png", 24, 211),
-    ("gta_232x80.png", 24, 671),
-    ("akvan_232x80.png", 272, 671),
-    ("voyager_232x80.png", 520, 671),
-    ("hayabusa_232x80.png", 768, 671),
+    ("hero_976x420.png", 24, 195),
+    ("gta_232x72.png", 24, 644),
+    ("akvan_232x72.png", 272, 644),
+    ("voyager_232x72.png", 520, 644),
+    ("hayabusa_232x72.png", 768, 644),
 ]
 
 TEXTS = [
-    ("t_volume.png", 449, 7),
-    ("t_masthead.png", 325, 30),
-    ("t_dateline.png", 369, 85),
-    ("t_hero_kicker.png", 24, 116),
-    ("t_chip.png", 842, 111),
-    ("t_hero_head.png", 24, 140),
-    ("t_deck.png", 25, 641),
-    ("t_arc.png", 336, 657),
-    ("t_card0.png", 24, 761),
-    ("t_card1.png", 272, 761),
-    ("t_card2.png", 520, 761),
-    ("t_card3.png", 768, 761),
-    ("t_digest.png", 24, 884),
+    ("t_volume.png", 449, 6),
+    ("t_masthead.png", 337, 27),
+    ("t_dateline.png", 376, 77),
+    ("t_hero_kicker.png", 24, 106),
+    ("t_chip.png", 842, 101),
+    ("t_hero_head.png", 24, 129),
+    ("t_deck.png", 25, 623),
+    ("t_card0.png", 24, 726),
+    ("t_card1.png", 272, 726),
+    ("t_card2.png", 520, 726),
+    ("t_card3.png", 768, 726),
+    ("t_crypto.png", 24, 846),
+    ("t_digest.png", 24, 903),
     ("t_foot_l.png", 24, 985),
-    ("t_foot_c.png", 204, 986),
+    ("t_foot_c.png", 192, 987),
     ("t_foot_r.png", 849, 985),
 ]
 
 HLINES = [
-    (24, 1000, 75, 1, HAIRLINE),
-    (24, 1000, 105, 1, RED_HI),
-    (24, 1000, 106, 2, RED),
-    (24, 1000, 667, 1, HAIRLINE),
+    (24, 1000, 69, 1, HAIRLINE),
+    (24, 1000, 96, 1, RED_HI),
+    (24, 1000, 97, 2, RED),
+    (24, 1000, 642, 1, HAIRLINE),
     (24, 1000, 978, 2, HAIRLINE),
 ]
 
 VLINES = [
-    (264, 675, 873, HAIRLINE),
-    (512, 675, 873, HAIRLINE),
-    (760, 675, 873, HAIRLINE),
-    (346, 898, 949, HAIRLINE),
-    (676, 898, 949, HAIRLINE),
+    (264, 648, 838, HAIRLINE),
+    (512, 648, 838, HAIRLINE),
+    (760, 648, 838, HAIRLINE),
+    (346, 916, 953, HAIRLINE),
+    (676, 916, 953, HAIRLINE),
 ]
 
 OUTLINES = [
-    (24, 211, 999, 630),
-    (24, 671, 255, 750),
-    (272, 671, 503, 750),
-    (520, 671, 751, 750),
-    (768, 671, 999, 750),
+    (24, 195, 999, 614),
+    (24, 644, 255, 711),
+    (272, 644, 503, 711),
+    (520, 644, 751, 711),
+    (768, 644, 999, 711),
+    (24, 846, 1000, 898),
 ]
 
 
