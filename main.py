@@ -11,63 +11,69 @@ ASSETS = os.path.join(ROOT, "assets")
 
 PAGE_W, PAGE_H = 1024, 1024
 
-BG = (23, 19, 16)
-CREAM = (242, 237, 227)
-HAIRLINE = (139, 130, 112)
-RED = (192, 57, 43)
-RED_HI = (231, 76, 60)
+BG = (246, 239, 221)
+CREAM = (246, 239, 221)
+HAIRLINE = (198, 188, 164)
+RED = (168, 56, 38)
+RED_HI = (200, 90, 60)
 
 PHOTOS = [
-    ("hero_976x420.png", 24, 195),
-    ("gta_232x72.png", 24, 644),
-    ("akvan_232x72.png", 272, 644),
-    ("voyager_232x72.png", 520, 644),
-    ("hayabusa_232x72.png", 768, 644),
+    ('illo_summit.png', 24, 131),
+    ('illo_controller.png', 24, 325),
+    ('illo_cyclone.png', 524, 325),
+    ('illo_voyager.png', 24, 397),
+    ('illo_asteroid.png', 524, 397),
+    ('illo_bridge.png', 24, 469),
+    ('illo_chartdown.png', 524, 469),
+    ('illo_flags.png', 24, 541),
+    ('illo_globe.png', 524, 541),
+    ('illo_pin.png', 24, 613),
+    ('illo_buildings.png', 524, 613),
+    ('illo_megaphone.png', 24, 685),
+    ('illo_chartup.png', 524, 685),
 ]
 
 TEXTS = [
-    ("t_volume.png", 449, 6),
-    ("t_masthead.png", 337, 27),
-    ("t_dateline.png", 376, 77),
-    ("t_hero_kicker.png", 24, 106),
-    ("t_chip.png", 842, 101),
-    ("t_hero_head.png", 24, 129),
-    ("t_deck.png", 25, 623),
-    ("t_card0.png", 24, 726),
-    ("t_card1.png", 272, 726),
-    ("t_card2.png", 520, 726),
-    ("t_card3.png", 768, 726),
-    ("t_crypto.png", 24, 846),
-    ("t_digest.png", 24, 903),
-    ("t_foot_l.png", 24, 985),
-    ("t_foot_c.png", 192, 987),
-    ("t_foot_r.png", 849, 985),
+    ('t_volume.png', 449, 7),
+    ('t_masthead.png', 331, 31),
+    ('t_dateline.png', 382, 82),
+    ('t_deck.png', 263, 110),
+    ('t_lead.png', 340, 141),
+    ('t_col0.png', 120, 327),
+    ('t_col1.png', 620, 327),
+    ('t_col2.png', 120, 399),
+    ('t_col3.png', 620, 399),
+    ('t_col4.png', 120, 471),
+    ('t_col5.png', 620, 471),
+    ('t_col6.png', 120, 543),
+    ('t_col7.png', 620, 543),
+    ('t_col8.png', 120, 615),
+    ('t_col9.png', 620, 615),
+    ('t_col10.png', 120, 687),
+    ('t_col11.png', 620, 687),
+    ('t_crypto.png', 24, 753),
+    ('t_index.png', 24, 820),
+    ('t_markets.png', 24, 927),
+    ('t_foot_l.png', 24, 985),
+    ('t_foot_c.png', 257, 987),
+    ('t_foot_r.png', 816, 985),
 ]
 
 HLINES = [
-    (24, 1000, 69, 1, HAIRLINE),
-    (24, 1000, 96, 1, RED_HI),
-    (24, 1000, 97, 2, RED),
-    (24, 1000, 642, 1, HAIRLINE),
-    (24, 1000, 978, 2, HAIRLINE),
+    (24, 1000, 74, 1, (198, 188, 164)),
+    (24, 1000, 101, 1, (200, 90, 60)),
+    (24, 1000, 102, 2, (168, 56, 38)),
+    (24, 1000, 315, 1, (198, 188, 164)),
+    (24, 1000, 832, 1, (198, 188, 164)),
+    (24, 1000, 978, 2, (198, 188, 164)),
 ]
 
 VLINES = [
-    (264, 648, 838, HAIRLINE),
-    (512, 648, 838, HAIRLINE),
-    (760, 648, 838, HAIRLINE),
-    (346, 916, 953, HAIRLINE),
-    (676, 916, 953, HAIRLINE),
+    (512, 323, 745, (198, 188, 164)),
+    (512, 835, 920, (198, 188, 164)),
 ]
 
-OUTLINES = [
-    (24, 195, 999, 614),
-    (24, 644, 255, 711),
-    (272, 644, 503, 711),
-    (520, 644, 751, 711),
-    (768, 644, 999, 711),
-    (24, 846, 1000, 898),
-]
+OUTLINES = []
 
 
 def read_png(path):
